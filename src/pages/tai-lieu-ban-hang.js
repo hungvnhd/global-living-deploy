@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Documents from "../components/pages/Documents";
+import Documents from "../components/pages/documents";
 export default function tinTuc() {
   return (
     <>
