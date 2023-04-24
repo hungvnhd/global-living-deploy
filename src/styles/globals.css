@@ -1,0 +1,58 @@
+:root {
+	--font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+		"Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+		"Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+	--main-black: #101422;
+	--main-white: #fff;
+	--main-gold: #e0a447;
+	--main-brown: #bb9352;
+	--main-yellow: #efcd7f;
+
+	--primary-background: linear-gradient(
+		54deg,
+		#e0a23b 0%,
+		#f4ed93 18.23%,
+		#fcb045 51.16%,
+		#f4ed93 82.29%,
+		#e0a23b 99.99%,
+		#f4ed93 100%
+	);
+	--secondary-background: linear-gradient(
+		102.66deg,
+		#ffdb63 31.25%,
+		#f4df9b 66.82%,
+		#fec450 96.93%
+	);
+}
+
+@font-face {
+	font-family: "Rozanova";
+	src: url("/fonts/rozanova/RozanovaGEO-Demo-Thin.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: var(--font-mono);
+}
+
+html,
+body {
+	max-width: 100vw;
+	overflow: hidden auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ol,
+ul {
+	padding-left: 1rem;
+}

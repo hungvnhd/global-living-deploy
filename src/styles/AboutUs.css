@@ -1,0 +1,139 @@
+.AboutUs {
+	position: relative;
+	max-width: 100vw;
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.AboutUs__bg {
+	width: calc(100% / 3);
+	min-height: 100vh;
+	transition: all 0.5 ease-in;
+}
+
+.AboutUs__bg > img {
+	display: block;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.AboutUs__locate {
+	position: relative;
+	z-index: 1;
+}
+
+.AboutUs__locate h2 {
+	color: #f5b638;
+}
+
+.AboutUs__vision {
+	position: relative;
+}
+
+/* .AboutUs__vision:hover > img {
+	width: 1000px;
+	transform: translateX(-18%);
+	z-index: 10;
+} */
+
+/* .AboutUs__vision:hover > .AboutUs__logo,
+.AboutUs__vision:hover .AboutUs__logo h2 {
+	opacity: 0;
+} */
+
+.AboutUs__vision-bg {
+	object-fit: cover;
+	transition: all 0.3s ease-out;
+}
+
+.AboutUs__vision h2 {
+	color: #fff;
+}
+
+.AboutUs__text {
+	position: absolute;
+	top: 10%;
+	right: 20px;
+	opacity: 0;
+	width: 50%;
+	background-color: rgb(26, 25, 25);
+	padding: 20px;
+}
+
+/* .AboutUs__vision:hover .AboutUs__text {
+	opacity: 1;
+} */
+
+.AboutUs__text h3 {
+	color: #f6b531;
+	font-family: "IM FELL Double Pica";
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 10px;
+}
+
+.AboutUs__text p {
+	color: #fff;
+	font-family: "Inter";
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.AboutUs__mission {
+	position: relative;
+	z-index: 1;
+}
+
+.AboutUs__mission h2 {
+	color: #f5b638;
+}
+
+.AboutUs__logo {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.AboutUs__logo h2 {
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "IM FELL Double Pica";
+}
+
+.AboutUs__logo-icon {
+	padding: 27px;
+	border: 2px solid #f5b638;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.AboutUs__logo-icon:active {
+	display: none;
+}
+
+.AboutUs__logo-icon img {
+	width: 30px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #000;
+	opacity: 0.8;
+}
