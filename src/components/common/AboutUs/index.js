@@ -29,7 +29,10 @@ const AboutUs = () => {
           setIsZoomMission(false);
         }}
       >
-        <img src='/images/350229-4k-wallpaper.jpg' alt='icon' />
+        <img
+          src='/images/z4293639748365_264652ac39d8acbdc6399d844732473c.jpg'
+          alt='icon'
+        />
         {isZoomLocate ? <></> : <div className='overlay' />}
         <div className='AboutUs__logo' style={{ cursor: "pointer" }}>
           {!isZoomLocate ? (

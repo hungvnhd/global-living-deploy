@@ -1,8 +1,10 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { useState } from "react";
 
 export default function Navbar() {
+	const { pathname } = useRouter();
 	const [navBar, setNavBar] = useState(false);
 
 	const changeBackgroundNav = () => {
@@ -12,9 +14,12 @@ export default function Navbar() {
 			setNavBar(false);
 		}
 	};
-
 	useEffect(() => {
 		window.addEventListener("scroll", changeBackgroundNav);
+
+		return () => {
+			window.removeEventListener("scroll", changeBackgroundNav);
+		};
 	}, []);
 
 	return (
@@ -59,7 +64,9 @@ export default function Navbar() {
 					<img src="/logo.png" alt="global-living" />
 				</div>
 				<div className="nav-row main-nav">
-					<Link href="/">Về Global Living</Link>
+					<Link href={`${pathname === "/" ? "#AboutUs" : "/"}`}>
+						Về Global Living
+					</Link>
 					<Link
 						href="https://info.globalliving-group.com/hungary?fbclid=IwAR2hyJCSClRp4e-rkqJR63DoTRQnDVBzXs0776Ead3lyjVmBK4RU8u19qWU"
 						target={"_blank"}
