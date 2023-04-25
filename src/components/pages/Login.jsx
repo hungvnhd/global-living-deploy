@@ -49,7 +49,7 @@ export default function login() {
     <div className='login'>
       <img src='/img/logo.png' alt='logo' />
       <h1>
-        BẤT ĐỘNG SẢN ĐỊNH CƯ QUỐC TẾ GIẢI PHÁP <br /> ĐẦU TƯ KHÔNG BIÊN GIỚI
+        BẤT ĐỘNG SẢN ĐỊNH CƯ QUỐC TẾ <br /> GIẢI PHÁP ĐẦU TƯ KHÔNG BIÊN GIỚI
       </h1>
 
       <form onSubmit={handleSubmit}>
