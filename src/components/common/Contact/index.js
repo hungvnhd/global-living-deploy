@@ -47,7 +47,7 @@ const Contact = () => {
 	};
 
 	return (
-		<section className="Contact">
+		<section className="Contact" id="contact">
 			<div className="Contact__inner">
 				<form onSubmit={handleSubmit(onSubmit)}>
 					<input
