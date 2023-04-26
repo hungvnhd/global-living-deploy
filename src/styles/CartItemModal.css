@@ -1,0 +1,47 @@
+.CartItemModal {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.CartItemModal a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.CartItemModal img,
+.MediaMaterialItemModal img {
+	width: 60%;
+	cursor: pointer;
+}
+
+.CartItemModal h2 {
+	background: none;
+	color: black;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 0;
+}
+
+.CartItemModal p {
+	margin: 0;
+	line-height: 25px;
+}
+
+.custom-modal-inner h2 {
+	background: none;
+	overflow: hidden auto;
+}
+
+.DocumentsSaved__list-modal-detail p {
+	margin: 0;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.DocumentsSaved__list-modal-detail .detail-image img {
+	width: 100%;
+}

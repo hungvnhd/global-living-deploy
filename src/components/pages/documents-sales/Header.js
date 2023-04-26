@@ -5,6 +5,8 @@ const DocumentsSalesHeader = () => {
 	return (
 		<header className="DocumentsSales__header">
 			<Navbar />
+
+			<h1>TÀI LIỆU BÁN HÀNG</h1>
 		</header>
 	);
 };

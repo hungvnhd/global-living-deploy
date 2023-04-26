@@ -12,11 +12,11 @@ export default function HomePage() {
   return (
     <>
       <Navbar></Navbar>
-      <header className="Header">
-        <video autoPlay muted loop id="myVideo">
+      <header className='Header'>
+        <video autoPlay muted loop id='myVideo'>
           <source
-            src="https://firebasestorage.googleapis.com/v0/b/global-living.appspot.com/o/header-video.mp4?alt=media&token=44f3ea74-649a-4967-84f9-e8f70b9eca1f"
-            type="video/mp4"
+            src='https://firebasestorage.googleapis.com/v0/b/rikkeisocial.appspot.com/o/images%2Fheader-video.mp4?alt=media&token=c45b6c0b-e163-4b10-b529-fe12d2605c6d'
+            type='video/mp4'
           />
         </video>
         {/* <div className="nav-card">
@@ -40,11 +40,11 @@ export default function HomePage() {
 					</article>
 				</div> */}
 
-        <div className="view-detail">
+        <div className='view-detail'>
           <strong>ĐẦU TƯ BẤT ĐỘNG SẢN - NHẬN THẺ CƯ TRÚ HUNGARY</strong>
           <br />
           <Link
-            href="https://info.globalliving-group.com/hungary?fbclid=IwAR2hyJCSClRp4e-rkqJR63DoTRQnDVBzXs0776Ead3lyjVmBK4RU8u19qWU"
+            href='https://info.globalliving-group.com/hungary?fbclid=IwAR2hyJCSClRp4e-rkqJR63DoTRQnDVBzXs0776Ead3lyjVmBK4RU8u19qWU'
             target={"_blank"}
           >{`Xem chi tiết chương trình >>`}</Link>
         </div>

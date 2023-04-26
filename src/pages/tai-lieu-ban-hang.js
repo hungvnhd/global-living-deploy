@@ -15,7 +15,7 @@ export default function DocumentsSalesPage() {
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<DocumentsSales />
+			<DocumentsSales></DocumentsSales>
 		</>
 	);
 }

@@ -1,11 +1,27 @@
 .DocumentsSales {
+	overflow: hidden;
 	background: #000;
 }
 
 .DocumentsSales__header {
-	background: #000;
-	max-height: 50vh;
-	height: 50vh;
+	max-height: 70vh;
+	height: 70vh;
+	background-image: url("/assits/51785.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+.DocumentsSales__header h1 {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #efcd7f;
+	font-size: 80px;
+	font-weight: 800;
 }
 
 .DocumentsSales__inner {
@@ -15,7 +31,8 @@
 }
 
 .DocumentsSales__saved {
-	padding: 40px;
+	padding: 20px 40px;
+	position: relative;
 }
 
 .DocumentsSales__saved h2 {
@@ -43,11 +60,57 @@
 	gap: 50px;
 }
 
+.DocumentsSaved__list-modal {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
 .DocumentsSaved__item {
-	width: 30%;
 }
 
 .DocumentsSaved__item img {
 	width: 100%;
 	border-radius: 5px;
+	cursor: pointer;
+}
+
+.DocumentsSaved__item-content {
+	color: #fff;
+	margin: 20px 0;
+}
+
+.DocumentsSaved__item-content p {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 20px;
+	margin: 0;
+}
+
+.DocumentsSales__saved-modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1000;
+	max-height: 90vh;
+	max-width: 90vw;
+	border-radius: 8px;
+	overflow: hidden auto;
+	background: #fff;
+	transition: all 0.4s ease-in;
+}
+
+.DocumentsSales__saved-modal-overlay {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: #000;
+	opacity: 0.4;
+	left: 0;
+	z-index: 1;
+	transition: all 0.4s ease-in;
 }

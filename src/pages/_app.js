@@ -12,6 +12,7 @@ import "@/styles/Register.css";
 import "@/styles/Login.css";
 import "@/styles/DetailNewsPage.css";
 import "@/styles/DocumentsSales.css";
+import "@/styles/CartItemModal.css";
 import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {

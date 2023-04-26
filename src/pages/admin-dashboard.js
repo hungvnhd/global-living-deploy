@@ -15,7 +15,7 @@ export default function AdminDashboardPage() {
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<AdminDashboard />
+			<AdminDashboard></AdminDashboard>
 		</>
 	);
 }
